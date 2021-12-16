@@ -1,9 +1,6 @@
 name: "CD PIPELINE"
 
-on:
-  push:
-    branches:
-      - master
+on: [push]
 jobs:
   deploy:
     name: Setup Gcloud Account
